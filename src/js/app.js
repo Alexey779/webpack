@@ -1,6 +1,6 @@
-import { defaultData, GameSavingData } from './game.js'
-import { readGameSaving as loadGame } from './game.js'
-import { writeGameSaving  as saveGame } from './game.js'
+
+import Game, {  GameSavingData, readGameSaving,  writeGameSaving  } from './game.js';
+
 
 const game = new Game();
 game.start();
